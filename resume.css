@@ -1,12 +1,15 @@
 #top{
     background-color:beige;
     color: rgb(130, 21, 21);
-    padding: 20px;
+    border-bottom: 1px solid;
 }
 
 #main_content{
     color: grey;
     background-color: #efefef;
+    margin:#efefef;
+    margin:-10px;
+    padding:20px;
 }
 
 h1, h2, h3, h4,p, li{
@@ -16,3 +19,12 @@ h1, h2, h3, h4,p, li{
 a{
     color:#4AF266
 }
+
+#imageofme{
+    border-radius: 50%;
+    border: solid, white;
+    height: 350px;
+    
+    
+}
+ 
