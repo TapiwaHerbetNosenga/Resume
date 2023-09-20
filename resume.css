@@ -1,30 +1,97 @@
-#top{
-    background-color:beige;
-    color: rgb(130, 21, 21);
-    border-bottom: 1px solid;
-}
+#main_content {
 
-#main_content{
-    color: grey;
     background-color: #efefef;
-    margin:#efefef;
-    margin:-10px;
-    padding:20px;
+    margin: #efefef;
+    margin: -10px;
+    padding: 20px;
 }
 
-h1, h2, h3, h4,p, li{
-    font-family:  BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+a {
+    font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: black;
 }
 
-a{
-    color:#4AF266
+h1 {
+    font-size: 2.5em;
 }
 
-#imageofme{
+a {
+    color: limegreen;
+}
+
+#imageofme {
     border-radius: 50%;
-    border: solid, white;
-    height: 350px;
+    width: 250px;
+    position: relative;
+    padding: 10px;
+    height: 250px;
     
-    
+    left: 10px;
+    top: 0px;
+
+
+
 }
- 
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: #385ba9;
+
+}
+
+#navbox1 {
+
+    padding: 10px;
+}
+
+#navbox2 {
+    padding: 10px;
+
+
+
+}
+
+#navbox3 {
+    padding: 10px;
+
+}
+
+#span {
+    background-color: #385ba9;
+}
+
+
+
+#back-to-top>button {
+    background-color: rgb(198, 156, 78);
+    border-radius: 50%;
+    border: solid 1px rgb(198, 156, 78);
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+}
+
+#header {
+    display: flex;
+   
+}
+
+#my_name {
+
+    position: relative;
+    top: 20pxpx;
+
+}
