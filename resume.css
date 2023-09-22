@@ -23,6 +23,8 @@ h1 {
 
 a {
     color: limegreen;
+    background-color: #385ba9;
+
 }
 
 #imageofme {
@@ -47,6 +49,13 @@ a {
     background-color: #385ba9;
 
 }
+#footbar {
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    background-color: #385ba9;
+
+}
 
 #navbox1 {
 
@@ -63,6 +72,11 @@ a {
 #navbox3 {
     padding: 10px;
 
+}
+
+#footbox{
+    padding-left:50%;
+    padding-right: 50%;
 }
 
 #span {
