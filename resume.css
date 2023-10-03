@@ -29,15 +29,33 @@ a {
   color: limegreen;
 }
 
-#imageofme {
+#Profile {
+  border-radius: 50%;
+  width: 300px;
+  position: relative;
+  padding: 10px;
+  height: 400px;
+  left: opx;
+  top: 0px;
+}
+#headshot {
   border-radius: 50%;
   width: 250px;
   position: relative;
   padding: 10px;
-  height: 250px;
-
+  height: 150px;
   left: opx;
   top: 0px;
+}
+headr{
+  background: white url(https://media.istockphoto.com/id/1186553317/vector/fluent-motion.jpg?s=612x612&w=0&k=20&c=DxjeydHExk2YfT-LsRlTCPet2ceqdfRD1-uwjZpcWMY=);
+  background-repeat: repeat-x;
+}
+
+.banner{
+  background-image:url(https://media.istockphoto.com/id/1186553317/vector/fluent-motion.jpg?s=612x612&w=0&k=20&c=DxjeydHExk2YfT-LsRlTCPet2ceqdfRD1-uwjZpcWMY=) ;
+background-size: cover;
+background-color: whitesmoke;
 }
 
 #navbar {
