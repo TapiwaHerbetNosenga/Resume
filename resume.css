@@ -1,7 +1,51 @@
 #main_content {
   background-color: #efefef;
   margin: #efefef;
+  padding-right:0px;
 }
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 2em;
+    text-align: center;
+  }
+  h2{
+    font-size: 1.75em;
+   padding-left: 2px;
+  }
+  h3{
+    font-size: 1.5em;
+padding-left: 2px;
+  }
+  h4{
+    font-size: 1.25em;
+    padding-left: 2px;
+  }
+  p{
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 1em;
+  }
+  li{
+    font-size: 1em;
+
+  }
+  a{
+    font-size: 1em;
+  }
+  }
+  .back-to-top > button {
+    background-color: #385ba9;
+    border-radius: 50%;
+    border: solid 1px #385ba9;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: limegreen;
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+      border-color: limegreen;}
+ 
 
 h1,
 h2,
@@ -15,15 +59,17 @@ a {
     sans-serif;
   color: black;
   padding-left:2px ;
+  
+
 }
+
+
 
 body {
   margin: 0px;
 }
 
-h1 {
-  font-size: 2.5em;
-}
+
 
 a {
   color: limegreen;
@@ -38,23 +84,26 @@ a {
   left: opx;
   top: 0px;
 }
+
+  
 #headshot {
   border-radius: 50%;
-  width: 250px;
+  width: 100px;
   position: relative;
   padding: 10px;
   height: 150px;
   left: opx;
   top: 0px;
+
 }
-headr{
+header{
   background: white url(https://media.istockphoto.com/id/1186553317/vector/fluent-motion.jpg?s=612x612&w=0&k=20&c=DxjeydHExk2YfT-LsRlTCPet2ceqdfRD1-uwjZpcWMY=);
   background-repeat: repeat-x;
 }
 
-.banner{
+#banner{
   background-image:url(https://media.istockphoto.com/id/1186553317/vector/fluent-motion.jpg?s=612x612&w=0&k=20&c=DxjeydHExk2YfT-LsRlTCPet2ceqdfRD1-uwjZpcWMY=) ;
-background-size: cover;
+
 background-color: whitesmoke;
 }
 
@@ -99,22 +148,11 @@ footer {
   padding: 5px;
 }
 
-#back-to-top > button {
-  background-color: #385ba9;
-  border-radius: 50%;
-  border: solid 1px #385ba9;
-  width: 50px;
-  height: 50px;
-  text-decoration: none;
-  color: limegreen;
-  position: fixed;
-  bottom: 80px;
-  right: 80px;
-}
 
-#header {
-  display: flex;
-}
+
+
+
+
 
 #my_name {
   position: static;
@@ -172,3 +210,4 @@ div.email-form{
 form.email-form{
     display:table;
 }
+ 
